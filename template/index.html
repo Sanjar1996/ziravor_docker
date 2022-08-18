@@ -1,0 +1,203 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+{% block content %}
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div class="hero-container">
+            <div id="heroCarousel" data-bs-interval="0" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                <!-- <ol class="carousel-indicators" id="hero-carousel-indicators"></ol> -->
+
+                <div class="carousel-inner" role="listbox">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active"
+                         style="background-image: url({% static 'assets/img/slide/1.jpg' %})">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h3 class="animate__animated animate__fadeInDown">{% trans "Dorivor " %}<span>{% trans "o'simliklarni yetishtirish va qayta ishlash" %}</span>
+                                </h3>
+                                <p class="animate__animated animate__fadeInUp">{% trans "O'zbekiston Respublikasi Prezidentining 2020 yil 26-noyabrdagi 'Dorivor o'simliklarni yetishtirish va qayta ishlash, ularning urug'chiligini yo'lga qo'yishni rivojlantirish bo'yicha ilmiy tadqiqotlar ko'lamini kengaytirishga oid chora-tadbirlari' to'g'risidagi Qaroriga muvofiq tashkil etilgan." %}</p>
+                                <a href="https://lex.uz/uz/docs/-5125714"
+                                   class="btn-get-started animate__animated animate__fadeInUp">{% trans "Batafsil" %}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= Featured Section ======= -->
+        <section id="featured" class="featured">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="icon-box">
+                            <i class="bi bi-card-checklist"></i>
+                            <h3><a href="">{% trans "Asosiy vazifa va funksiyalari haqida qisqacha:" %}</a></h3>
+                            <p>
+                                &nbsp&nbsp&nbsp {% trans "Dorivor o'simliklarni ilmiy asosda yetishtirish va qayta sihlash, ulardan oqilona foydalanishning yagona strategiyasini shakllantirish va amalga oshirish;" %}
+                                <br>
+                                &nbsp&nbsp&nbsp {% trans "Respublika hududidagi yovvoyi holda o'suvchi dorivor o'simliklar areallarini o'rganish va zaxiralarini aniqlash, mavjud bioresurslar genofondini saqlash, onalik plantatsiyalarini tashkil etish;" %}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                            <i class="bi bi-bar-chart"></i>
+                            <h3><a href="">{% trans "Markazning huquqlari va javobgarliklari haqida qisqacha:" %}</a>
+                            </h3>
+                            <p>
+                                &nbsp&nbsp&nbsp {% trans "Dorivor o'simliklarni to'plash (g'amlash), ularni olib kirish va tashqariga olib chiqishga ruxsatnomalar berish;" %}
+                                <br>
+                                &nbsp&nbsp&nbsp {% trans "Ilmiy-tadqiqot ishlarining re'jalarini, ish dasturlari va bajarish usullarini  hamda ilmiy hisobotlarini  muhokama qilish maqsadida ilmiy kengahs tashkil etish;" %}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                            <i class="bi bi-binoculars"></i>
+                            <h3><a href="">{% trans "Markaz faoliyatini tashkil etish haqida qisqacha:" %}</a></h3>
+                            <p>
+                                &nbsp&nbsp&nbsp {% trans "Markazga Qo'mita raisi tomonidan lavozimga tayinlanadigan va lavozmdan ozod etiladigan bosh direktor rahbarlik qiladi" %};
+                                <br>&nbsp&nbsp&nbsp {% trans "Bosh direktorning ikki nafar o'rinbosari bo'ladi, ular bosh direktorning taqdimnomasiga asosan Qo'mita raisi tomonidan lavozimga tayinlanadi va lavozimdan ozod etiladi" %}
+                                ; <br> &nbsp&nbsp&nbsp {% trans "Markaz bosh bugalteri Qo'mita bilan kelishgan xolda bosh direktor tomonidan lavozimga tayinlanadi va lavozmdan ozod etiladi." %}
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Featured Section -->
+
+        <!-- News -->
+        <section id="news" class="news">
+            <div class="container">
+                <div class="row">
+                    <h3 class="animate__animated animate__fadeInDown" style="
+            color: #2e2e2e;
+            margin-bottom: 30px;
+            font-size: 38px;
+            font-weight: 700;"> <center>{% trans "Yangiliklar" %}</center></h3>
+
+                    {% for data in page_obj %}
+                        <div class="col-lg-3 mt-4 mt-lg-0">
+                            <div class="card" style="width: 18rem;">
+                                {% if data.image %}
+                                    <img src="{{ data.image.url }}" class="card-img-top" alt="..."
+                                         style="height: 300px; width: 100%;">
+                                {% endif %}
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ data.title }}</h5>
+                                    <p class="card-text">{{ data.sub_title }}</p>
+                                    <p class=card-text>Vaqt: {{ data.data }}</p>
+                                    <a href="#" class="btn btn-success">{% trans "Batafsil" %}</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    <center><a href="{% url 'pages:about' %}"
+                               class="btn btn-outline-primary mt-4">{% trans "Barchasi" %}</a></center>
+                </div>
+            </div>
+        </section><!-- /News -->
+
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="{% static 'assets/img/dorivor.jpeg' %}" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content">
+                        <h3>{% trans "Hududlar dorivor o'simliklar yetishtirish bo'yicha ixtisoslashtiriladi." %}</h3>
+                        <p class="fst-italic">{% trans "Hududlar dorivor o'simliklar yetishtirish bo'yicha ixtisoslashtiriladi." %}
+                        </p>
+
+                        <p>
+                            {% trans " 'Yovvoyi holda o'suvchi dorivor o'simliklarni muhofaza qilish, madaniy holda yetishtirish, qayta ishlash va mavjud resurslardan oqilona foydalanish chora-tadbirlari to'g'risida' Prezident qarori qabul qilindi" %}.<br>
+                            {% trans "Qarorga muvofiq, 2020 yil 1 maydan boshlab dorivor o'simliklarni yetishtirish, saqlash, birlamchi yoki chuqur qayta ishlash klasterlari tashkil etiladi, shuningdek, hududlar dorivor o'simliklar yetishtirish bo'yicha ixtisoslashtiriladi." %}<br>
+                            {% trans "Dorivor o'simliklar klasteri uchun yer maydoni Qoraqalpog'iston Respublikasi Vazirlar Kengashi, viloyatlar hokimliklari va tashabbuskorlar o'rtasida tuziladigan bitim asosida ajratiladi." %}<br>
+                            {% trans "Xorijiy investorlar ishtirokidagi dorivor o'simliklar klasteriga yer maydoni investitsiya kiritish to'g'risidagi shartnoma imzolangandan so'ng Vazirlar Mahkamasi tomonidan ajratiladi." %}<br>
+                            - {% trans "Klasterni tashkil etadigan tashabbuskor tomonidan quyidagi hujjatlar taqdim etiladi:" %}<br>
+                            - {% trans "ariza;" %}<br>
+                            - {% trans "biznes-reja yoki texnik-iqtisodiy asosnoma;" %}<br>
+                            - {% trans "zarur infratuzilma ob'ektlari, mol-mulk va boshqa vositalarning mavjudligi haqida ma'lumotnoma." %}
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+            <div class="container">
+
+                <div class="row">
+                    <center class="fst-normal mb-4 animate__animated animate__fadeInDown" style="font-size: 25px;"><b>
+                        {% trans "Markaz o'ziga yukatilgan asosiy vazifalarga muvofiq quydagi funksiyalarni amalga oshiradi." %}
+                    </b></center>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-4">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+{#                            <h4><a href="">{% trans "Lorem Ipsum" %} </a></h4>#}
+                            <p>{% trans "dorivor o‘simliklarni ilmiy asosda yetishtirish va qayta ishlash, ulardan oqilona foydalanishning yagona strategiyasini shakllantirish va amalga oshirish sohasida" %}</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 mb-4">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+{#                            <h4><a href="">{% trans "Sed ut perspiciatis" %}</a></h4>#}
+                            <p>{% trans "respublika hududidagi yovvoyi holda o‘suvchi dorivor o‘simliklar areallarini o‘rganish va zaxiralarini aniqlash, mavjud bioresurslar genofondini saqlash, onalik plantatsiyalarini tashkil etish sohasida" %}</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 mb-4">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-tachometer"></i></div>
+{#                            <h4><a href="">Magni Dolores</a></h4>#}
+                            <p>
+                                {% trans "urug‘lik materiallarni yetishtirish va tayyorlash, ko‘paytirish, kolleksion ko‘chatxonalar tashkil etish hamda ularning xomashyolarini qayta ishlash bilan bog‘liq ilmiy va amaliy tadqiqotlarni olib borish sohasida" %}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+{#                            <h4><a href="">{% trans "Sed ut perspiciatis" %}</a></h4>#}
+                            <p>{% trans "dorivor o‘simliklarni muayyan tuproq-iqlim sharoitlarini hisobga olgan holda madaniy holda yetishtirishni yo‘lga qo‘yish bo‘yicha aniq ilmiy asoslangan takliflar ishlab chiqish sohasida" %}</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+{#                            <h4><a href="">{% trans "Sed ut perspiciatis" %}</a></h4>#}
+                            <p>{% trans "tuproq-iqlim sharoitlarini hisobga olib madaniy holda yetishtiriladigan dorivor o‘simliklarning agrotexnologik xaritalarini Qishloq xo‘jaligi vazirligi va O‘rmon xo‘jaligi davlat qo‘mitasi buyurtmasiga ko‘ra ishlab chiqish sohasida" %}</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+{#                            <h4><a href="">{% trans "Sed ut perspiciatis" %}</a></h4>#}
+                            <p>{% trans "dorivor o‘simliklar kimyoviy tarkibini o‘rganish, mahsulotini standartlash va amaldagi qonun hujjatlariga muvofiq sertifikatlash sohasida" %}</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+    </main><!-- End #main -->
+{% endblock content %}

@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+{% block content %}
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
+
+                <ol>
+                    <li><a href="{% url 'pages:home' %}">{% trans "Asosiy" %}</a></li>
+                    <li>{% trans "Markaz faoiliyati" %}</li>
+                </ol>
+                <h2>{% trans "Markaz faoliyati" %}</h2>
+
+            </div>
+        </section><!-- End Breadcrumbs -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+            <div class="container">
+                <p style="text-align:justify;">
+                <center class="fst-normal" style="font-size: large;"><b>{% trans 'Markazning asosiy vazifalari va funksiyalari' %}</b></center>
+                          {% blocktrans %} Quyidagilar Markazning asosiy vazifalari hisoblanadi:<br>
+                        dorivor o‘simliklarni ilmiy asosda yetishtirish va qayta ishlash, ulardan oqilona
+                        foydalanishning yagona strategiyasini shakllantirish va amalga oshirish;<br>
+                        respublika hududidagi yovvoyi holda o‘suvchi dorivor o‘simliklar areallarini o‘rganish va
+                        zaxiralarini aniqlash, mavjud bioresurslar genofondini saqlash, onalik plantasiyalarini tashkil
+                        etish;<br>
+                        urug‘lik materiallarni yetishtirish va tayyorlash, ko‘paytirish, kolleksion ko‘chatxonalar
+                        tashkil etish hamda ularning xomashyolarini qayta ishlash bilan bog‘liq ilmiy va amaliy
+                        tadqiqotlarni olib borish;<br>
+                        dorivor o‘simliklarni muayyan tuproq-iqlim sharoitlarini hisobga olgan holda madaniy holda
+                        yetishtirishni yo‘lga qo‘yish bo‘yicha aniq ilmiy asoslangan takliflar ishlab chiqish;<br>
+                        tuproq-iqlim sharoitlarini hisobga olib madaniy holda yetishtiriladigan dorivor o‘simliklarning
+                        agrotexnologik xaritalarini Qishloq xo‘jaligi vazirligi va Qo‘mita buyurtmasiga ko‘ra ishlab
+                        chiqish;<br>
+                        dorivor o‘simliklar kimyoviy tarkibini o‘rganish, mahsulotini standartlash va amaldagi qonun
+                        hujjatlariga muvofiq sertifikatlash;<br>
+                        dorivor o‘simliklarga bo‘lgan ichki va tashqi bozorlar talabini o‘rganish bo‘yicha marketing
+                        tadqiqotlari olib borish;<br>
+                        dorivor o‘simliklar yetishtiruvchi va qayta ishlovchi fermer xo‘jaliklari, tashkilotlar va
+                        boshqa sub'ektlar rahbarlari va mutaxassislarining malakasini oshirib borishga yo‘naltirilgan
+                        dasturlarni tayyorlash va o‘qitish tizimini tashkil etish.<br>
+                         <br><br>Markaz o‘ziga yuklangan asosiy vazifalarga muvofiq quyidagi funksiyalarni amalga oshiradi:<br>
+                        a) dorivor o‘simliklarni ilmiy asosda yetishtirish va qayta ishlash, ulardan oqilona
+                        foydalanishning yagona strategiyasini shakllantirish va amalga oshirish sohasida:
+                        dorivor o‘simliklarni yetishtirish, tayyorlash, qayta ishlash sohasiga zamonoviy
+                        texnologiyalarni joriy etish, rivojlantirish va samaradorligini oshirish, mavjud muammolarni
+                        doimiy o‘rganish, ularni bartaraf etish yuzasidan Vazirlar Mahkamasiga takliflar kiritib borish;
+                        dorivor o‘simliklarni yetishtirish, tayyorlash hajmlarini oshirish va turlarini ko‘paytirishni
+                        ichki va tashqi bozor ehtiyojlaridan kelib chiqqan holda tizimli o‘rganish;
+                        ilmiy-tadqiqot va oliy ta'lim muassasalari tomonidan amalga oshirilgan dorivor o‘simliklarga
+                        doir ilmiy tadqiqotlar, yangi innovasion ishlanmalar bo‘yicha ma'lumotlar bazasini
+                        shakllantirish va tizimli ravishda yangilanib borilishini amalga oshirish;
+                        respublikada faoliyat olib borayotgan ilmiy-tadqiqot muassasalari tomonidan amalga
+                        oshirilayotgan sohaga oid loyihalarni tahlil qilish va natijalariga ko‘ra xulosa berish;<br>
+                        b) respublika hududidagi yovvoyi holda o‘suvchi dorivor o‘simliklar areallarini o‘rganish va
+                        zaxiralarini aniqlash, mavjud bioresurslar genofondini saqlash, onalik plantasiyalarini tashkil
+                        etish sohasida:
+                        tegishli ilmiy-tadqiqot muassasalari bilan hamkorlikda yovvoyi holda o‘suvchi dorivor
+                        o‘simliklar areallarini va zaxiralarini o‘rganish borasida ilmiy-tadqiqotlar olib borishni
+                        tashkil etish va natijalari bo‘yicha ishlanmalar, takliflar ishlab chiqish;
+                        yovvoyi holda o‘suvchi dorivor o‘simliklar nav-namunalarini yig‘ish va ulardan dorivor moddalari
+                        eng ko‘p to‘planadigan nav-namunalarni aniqlash va seleksiya yo‘li bilan yangi navlarni
+                        yaratishni yo‘lga qo‘yish;
+                        hududlarning tabiiy-iqlim sharoitidan kelib chiqib ixtisoslashgan o‘rmon xo‘jaliklarida dorivor
+                        o‘simliklarning onalik plantasiyalarini barpo etish va tadqiqot ishlarini tashkil etish;
+                        mavjud bioresurslar genofondini saqlash borasida ilmiy-tadqiqot ishlarini amalga oshirish va
+                        unga mahalliy hamda xorijiy investorlarning investisiyalarini, xalqaro moliya institutlari
+                        grantlarini jalb etish;
+                        o‘rmon fondi yerlarida dorivor o‘simliklarning qat'iy hisobini yuritish;<br>
+                        v) urug‘lik materiallarni yetishtirish va tayyorlash, ko‘paytirish, kolleksion ko‘chatxonalar
+                        tashkil etish hamda ularning xomashyolarini qayta ishlash bilan bog‘liq ilmiy va amaliy
+                        tadqiqotlarni olib borish sohasida:
+                        dorivor o‘simliklarning kamayib borayotgan noyob turlarini saqlash va ko‘paytirishni tashkil
+                        etish;
+                        yangi turdagi dorivor o‘simliklarni madaniylashtirish bo‘yicha ixtisoslashgan o‘rmon
+                        xo‘jaliklarida urug‘chilik tajriba uchastkalarini tashkil etish;
+                        ixtisoslashgan o‘rmon xo‘jaliklarida dorivor o‘simliklarning, ayniqsa, kamayib borayotgan noyob
+                        turdagi dorivor o‘simliklarning kolleksion ko‘chatxonalarini tashkil etish hamda xomashyosini
+                        tayyorlash va qayta ishlash bilan bog‘liq ilmiy va amaliy tadqiqotlar olib borish;<br>
+                        g) dorivor o‘simliklarni muayyan tuproq-iqlim sharoitlarini hisobga olgan holda madaniy holda
+                        yetishtirishni yo‘lga qo‘yish bo‘yicha aniq ilmiy asoslangan takliflar ishlab chiqish sohasida:
+                        ichki va tashqi bozor ehtiyojlarini o‘rganish asosida o‘rmon xo‘jaliklari va boshqa dorivor
+                        o‘simliklar yetishtiruvchi sub'ektlar bo‘yicha dorivor o‘simliklarni rivojlantirish bo‘yicha
+                        «yo‘l xaritasi»ni ishlab chiqish;
+                        hududlarning tuproq-iqlim sharoitlaridan kelib chiqib dorivor o‘simliklarni ilmiy asoslangan
+                        holda joylashtirish bo‘yicha takliflar ishlab chiqish;
+                        tabiiy holda o‘sadigan dorivor o‘simliklarni madaniylashtirish, chet el florasiga mansub bo‘lgan
+                        dorivor o‘simliklarni mahalliy sharoitda urug‘laridan ko‘paytirish va introduksiyalashni yo‘lga
+                        qo‘yish;<br>
+                        d) tuproq-iqlim sharoitlarini hisobga olib madaniy holda yetishtiriladigan dorivor
+                        o‘simliklarning agrotexnologik xaritalarini Qishloq xo‘jaligi vazirligi va O‘rmon xo‘jaligi
+                        davlat qo‘mitasi buyurtmasiga ko‘ra ishlab chiqish sohasida:
+                        agrotexnolik xaritalarni ishlab chiqish bo‘yicha dorivor o‘simlik turlarini aniqlash va
+                        ro‘yxatini shakllantirish;
+                        agrotexnolik xaritalarni ishlab chiqish uchun ketadigan sarf-xarajatlarni aniqlash va
+                        belgilangan tartibda moliyalashtirish uchun mablag‘larni yo‘naltirish;
+                        tegishli ilmiy-tadqiqot muassasalari bilan hamkorlikda dorivor o‘simliklarni madaniy holda
+                        yetishtirishni ilmiy asoslangan holda tashkil etish va sarf-xarajatlarni belgilash maqsadida
+                        agrotexnologik xaritalarni ishlab chiqishni amalga oshirish;<br>
+                        e) dorivor o‘simliklar kimyoviy tarkibini o‘rganish, mahsulotini standartlash va amaldagi qonun
+                        hujjatlariga muvofiq sertifikatlash sohasida:
+                        dorivor o‘simliklar sohasida xalqaro standartlar talablarini doimiy o‘rganish;
+                        laboratoriya jihozlarining xalqaro standart talablariga mosligini ta'minlash;
+                        sohaga malakali mutaxassislarni jalb etish va ularning tajriba hamda ko‘nikmalarini oshirib
+                        borish;
+                        mahsulotlarni standartlash va sertifikatlash bo‘yicha rivojlangan mamlakatlar ilmiy-tadqiqot
+                        muassasalari bilan hamkorlikni yo‘lga qo‘yish va ularning tajribasini o‘rganish va joriy etish;
+                        sohaga ilg‘or texnoligiyalarni jalb etish va ularni qo‘llash oshirish;
+                        dorivor o‘simliklar mahsulotlarini ishlab chiqarishning xalqaro standartlarga muvofiqligini
+                        nazorat qilish mexanizmlarini ishlab chiqish;
+                        laboratoriyani zamonoviy jihozlar bilan ta'minlashga xorijiy institut hamda donorlarning
+                        mablag‘larini jalb etish;
+                        ilmiy loyihalar doirasida dorivor o‘simliklarning iqlim sharoitiga mos holda o‘sishi va
+                        rivojlanishi hamda olingan mahsulotlarning kimyoviy tarkibi mosligi bo‘yicha dorivor
+                        o‘simliklarning har bir turi va naviga alohida lisenziya berishni yoki belgilangan tartibda
+                        akkreditasiyadan o‘tgan sertifikatlash organi tomonidan sertifikatlashni amalga oshirish;<br>
+                        yo) dorivor o‘simliklarga bo‘lgan ichki va tashqi bozorlar talabini o‘rganish bo‘yicha marketing
+                        tadqiqotlari olib borish sohasida:
+                        dorivor o‘simliklarga bo‘lgan bozor talablarini o‘rganish bo‘yicha jahon tajribasini o‘rganish
+                        va amaliyotga joriy etish;
+                        sohaga malakali mutaxassislarni jalb etish va marketing tadqiqotlari o‘tkazish;
+                        ichki va tashqi bozorlar talablari asosida dorivor o‘simliklarni yetishtirish bo‘yicha
+                        takliflarni ishlab chiqish hamda Qishloq xo‘jaligi vazirligiga va O‘rmon xo‘jaligi davlat
+                        qo‘mitasiga kiritish;<br>
+                        j) dorivor o‘simliklar yetishtiruvchi va qayta ishlovchi fermer xo‘jaliklari, tashkilotlar va
+                        boshqa sub'ektlar rahbarlari va mutaxassislarining malakasini oshirib borishga yo‘naltirilgan
+                        dasturlarni tayyorlash va o‘qitish tizimini tashkil etish sohasida:
+                        sohada ilmiy xodimlarni tayyorlashni, faoliyat ko‘rsatayotgan xodimlarni qayta tayyorlash va
+                        ularning malakasini oshirishni tashkil etish;
+                        dorivor o‘simliklarni yetishtirish, quritish, qayta ishlash, marketing yo‘nalishi bo‘yicha
+                        rahbar va mutaxassislarning malakasini oshirishga qaratilgan yillik o‘quv dasturlarini ishlab
+                        chiqish;
+                        mahalliy hokimliklar va viloyat o‘rmon xo‘jaliklari boshqarmalari bilan birgalikda dorivor
+                        o‘simliklarni yetishtiruvchi va qayta ishlovchi fermer xo‘jaliklari, tashkilotlar va boshqa
+                        sub'ektlar bo‘yicha malaka oshirish o‘quv dasturlarini o‘tkazish grafik-jadvalini tayyorlash
+                        xamda amalga oshirish mexanizimini ishlab chiqish;
+                        respublikada hamda xorijda soha rahbarlari va mutaxassislarini qayta tayyorlash va ularning
+                        malakasini oshirishni tashkil etishda qatnashish.<br>
+                        Markaz qonunchilik hujjatlariga muvofiq boshqa funksiyalarni ham bajarishi mumkin.
+                        {% endblocktrans %}
+                    </center>
+                </p>
+            </div>
+        </section><!-- End Services Section -->
+    </main><!-- End #main -->
+{% endblock content %}

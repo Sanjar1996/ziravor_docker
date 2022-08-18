@@ -1,0 +1,2101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-03 16:54+0500\n"
+"PO-Revision-Date: 2022-08-03 16:06+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: template/about.html:13 template/base.html:77 template/base.html:114
+#: template/blog.html:12 template/contact.html:12 template/portfolio.html:12
+#: template/pricing-detail.html:9 template/pricing.html:12
+#: template/services.html:11 template/team.html:12
+msgid "Asosiy"
+msgstr "Основные"
+
+#: template/about.html:14 template/about.html:16 template/base.html:79
+#: template/base.html:115 template/index.html:86
+msgid "Yangiliklar"
+msgstr "Новости"
+
+#: template/about.html:38 template/news.html:26
+msgid "Vaqt"
+msgstr "Время"
+
+#: template/base.html:11
+msgid ""
+"O'rmon xo'jaligi davlat qo'mitasi negizidagi shifobax dorivor o'simiklarni "
+"yetishtirish markazi"
+msgstr ""
+"Научно-производственный центр по выращиванию и переработке лекарственных "
+"растений при Государственном комитете по лесному хозяйству Республики "
+"Узбекистан"
+
+#: template/base.html:66
+#, fuzzy
+#| msgid ""
+#| "O'rmon xo'jaligi davlat qo'mitasi huzuridagi dorivor o'simiklarni "
+#| "yetishtirish va qayta ishlash IICHM!"
+msgid ""
+"O'rmon xo'jaligi davlat qo'mitasi huzuridagi dorivor o'simiklarni "
+"yetishtirish va\n"
+"                        qayta ishlash IICHM!"
+msgstr ""
+"НПЦ по выращиванию и переработке лекарственных растений при Государственном "
+"комитете по лесному хозяйству Республики Узбекистан"
+
+#: template/base.html:81 template/base.html:116 template/services.html:14
+msgid "Markaz faoliyati"
+msgstr "Деятельность центра"
+
+#: template/base.html:83
+msgid "Hodimlar"
+msgstr "Сотрудники"
+
+#: template/base.html:86
+msgid "Dorivor o'simliklar"
+msgstr "Лекарственные растения"
+
+#: template/base.html:88
+msgid "Elektron ma'lumotlar bazasi"
+msgstr "Электронная база "
+
+
+# template/pricing-detail.html:10
+#: template/pricing-detail.html:12 template/pricing.html:13
+#: template/pricing.html:15
+msgid "Elektron ma'lumotlar bazasi"
+msgstr "Электронная база данных"
+
+#: template/base.html:91
+msgid "Biz bilan bog'lanish"
+msgstr "Связаться с нами"
+
+#: template/base.html:112
+msgid "Foydali linklar"
+msgstr "Полезные ссылки"
+
+#: template/base.html:117 template/team.html:13 template/team.html:15
+msgid "Rahbarlar"
+msgstr "Руководство"
+
+#: template/base.html:118
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+#: template/base.html:123 template/contact.html:15
+msgid "Biz bilan aloqa"
+msgstr "Связаться с нами"
+
+#: template/base.html:125
+msgid "Toshkent shaxar"
+msgstr "город Ташкент"
+
+#: template/base.html:126
+msgid "Bektemir tumani"
+msgstr "Бектемирский район"
+
+#: template/base.html:127
+msgid "Oltintopgan 15"
+msgstr "Олтинтопган 15"
+
+#: template/base.html:128 template/contact.html:44
+msgid "Telefon"
+msgstr "Телефон"
+
+#: template/base.html:135
+msgid "Tashkilot haqida"
+msgstr "Об организации"
+
+#: template/base.html:137
+msgid ""
+"\n"
+"                            Markaz respublikada dorivor o‘simliklarni ilmiy "
+"asosda yetishtirish va qayta ishlash,\n"
+"                            ulardan oqilona foydalanishning yagona "
+"strategiyasini shakllantirish va amalga oshirish,\n"
+"                            ishlab chiqarishga ilmiy asoslangan "
+"texnologiyalarni joriy etish, dorivor o‘simliklar\n"
+"                            plantatsiyalarini barpo etish, chet el florasiga "
+"mansub bo‘lgan dorivor o‘simliklar\n"
+"                            turlarini iqlimlashtirish, nav namunalarini "
+"sinovdan o‘tkazish, tanlash, dorivor o‘simliklar\n"
+"                            xomashyosi va ulardan olinadigan mahsulotlarni "
+"sertifikatlash va standartlashtirishni amalga\n"
+"                            oshirish hamda rivojlantirish bo‘yicha "
+"respublika ilmiy-ishlab chiqarish davlat muassasasi\n"
+"                            hisoblanadi.\n"
+"                        "
+msgstr ""
+"Центр отвечает за научное выращивание и переработку лекарственных растений в "
+"республике, разработку и реализацию единой стратегии их рационального "
+"использования, внедрение научно-обоснованных технологий производства, "
+"создание плантаций лекарственных растений, лекарственных растений, "
+"принадлежащих к зарубежной флоре. является республиканским научно-"
+"производственным государственным учреждением по акклиматизации видов, "
+"испытанию и отбору сортообразцов, осуществлению и развитию сертификации и "
+"стандартизации лекарственного растительного сырья и продуктов, полученных из "
+"него."
+
+#: template/base.html:157
+msgid "Barcha huquqlar himoyalangan"
+msgstr "Все права защищены"
+
+#: template/blog.html:13
+msgid "Blog"
+msgstr "Блог"
+
+#: template/blog.html:15
+msgid "BLog"
+msgstr "Блог"
+
+#: template/blog.html:55
+msgid "Ko'proq"
+msgstr "Больше"
+
+#: template/blog.html:66
+msgid "oldingi"
+msgstr "предыдущий"
+
+#: template/blog.html:71
+msgid "saxifa"
+msgstr "страницы"
+
+#: template/blog.html:71
+msgid "dan"
+msgstr "от"
+
+#: template/blog.html:74
+msgid "keyingi"
+msgstr "далее"
+
+#: template/blog.html:96
+msgid "Kategoriyalar"
+msgstr "Категории"
+
+#: template/contact.html:28
+msgid "Bizning manzil"
+msgstr "Наш адресс"
+
+#: template/contact.html:29
+msgid "Toshkent shaxar, Bektemit tuman, Oltintopgan 15"
+msgstr "город Ташкент, Бектемирский район, Олтинтопган 15 "
+
+#: template/contact.html:36
+msgid "Elektron pochta"
+msgstr "Эл. адрес"
+
+#: template/index.html:19
+msgid "Dorivor "
+msgstr "Лекарственный"
+
+#: template/index.html:19
+msgid "o'simliklarni yetishtirish va qayta ishlash"
+msgstr " выращивание и обработка растений"
+
+#: template/index.html:21
+msgid ""
+"O'zbekiston Respublikasi Prezidentining 2020 yil 26-noyabrdagi 'Dorivor "
+"o'simliklarni yetishtirish va qayta ishlash, ularning urug'chiligini yo'lga "
+"qo'yishni rivojlantirish bo'yicha ilmiy tadqiqotlar ko'lamini kengaytirishga "
+"oid chora-tadbirlari' to'g'risidagi Qaroriga muvofiq tashkil etilgan."
+msgstr ""
+"Организован в соответствии с Постановлением Президента Республики Узбекистан "
+"от 26 ноября 2020 года 'О мерах по расширению масштабов научных исследований "
+"по выращиванию и переработке лекарственных растений, развитию семеноводства'."
+
+#: template/index.html:23 template/index.html:99
+msgid "Batafsil"
+msgstr "Подробнее"
+
+#: template/index.html:42
+msgid "Asosiy vazifa va funksiyalari haqida qisqacha:"
+msgstr "Кратко об основных задачах и функциях:"
+
+#: template/index.html:44
+msgid ""
+"Dorivor o'simliklarni ilmiy asosda yetishtirish va qayta sihlash, ulardan "
+"oqilona foydalanishning yagona strategiyasini shakllantirish va amalga "
+"oshirish;"
+msgstr ""
+"формирование и реализация единой стратегии научно обоснованного выращивания "
+"и переработки лекарственных растений, их рационального использования;"
+
+#: template/index.html:46
+msgid ""
+"Respublika hududidagi yovvoyi holda o'suvchi dorivor o'simliklar areallarini "
+"o'rganish va zaxiralarini aniqlash, mavjud bioresurslar genofondini saqlash, "
+"onalik plantatsiyalarini tashkil etish;"
+msgstr ""
+"Изучение ареалов и определение запасов дикорастущих лекарственных растений "
+"на территории республики, сохранение генофонда существующих биоресурсов, "
+"организация материнских плантаций;"
+
+#: template/index.html:53
+msgid "Markazning huquqlari va javobgarliklari haqida qisqacha:"
+msgstr "Кратко о правах и обязанностях центра:"
+
+#: template/index.html:56
+msgid ""
+"Dorivor o'simliklarni to'plash (g'amlash), ularni olib kirish va tashqariga "
+"olib chiqishga ruxsatnomalar berish;"
+msgstr ""
+"Сбор (заготовка) лекарственных растений, выдача разрешений на их ввоз и "
+"вывоз;"
+
+#: template/index.html:58
+msgid ""
+"Ilmiy-tadqiqot ishlarining re'jalarini, ish dasturlari va bajarish "
+"usullarini  hamda ilmiy hisobotlarini  muhokama qilish maqsadida ilmiy "
+"kengahs tashkil etish;"
+msgstr ""
+"создание ученого совета для обсуждения планов научно-исследовательских "
+"работ, рабочих программ и методов выполнения, а также научных отчетов;"
+
+#: template/index.html:65
+msgid "Markaz faoliyatini tashkil etish haqida qisqacha:"
+msgstr "Кратко об организации деятельности центра:"
+
+#: template/index.html:67
+msgid ""
+"Markazga Qo'mita raisi tomonidan lavozimga tayinlanadigan va lavozmdan ozod "
+"etiladigan bosh direktor rahbarlik qiladi"
+msgstr ""
+"Центр возглавляет генеральный директор, который назначается на должность и "
+"освобождается от должности председателем Комитета."
+
+#: template/index.html:68
+msgid ""
+"Bosh direktorning ikki nafar o'rinbosari bo'ladi, ular bosh direktorning "
+"taqdimnomasiga asosan Qo'mita raisi tomonidan lavozimga tayinlanadi va "
+"lavozimdan ozod etiladi"
+msgstr ""
+"Генеральный директор имеет двух заместителей, назначаемых на должность и "
+"освобождаемых от должности председателем Комитета по представлению "
+"генерального директора."
+
+#: template/index.html:69
+#, fuzzy
+#| msgid ""
+#| "Markazga Qo'mita raisi tomonidan lavozimga tayinlanadigan va lavozmdan "
+#| "ozod etiladigan bosh direktor rahbarlik qiladi"
+msgid ""
+"Markaz bosh bugalteri Qo'mita bilan kelishgan xolda bosh direktor tomonidan "
+"lavozimga tayinlanadi va lavozmdan ozod etiladi."
+msgstr ""
+"Центр возглавляет генеральный директор, который назначается на должность и "
+"освобождается от должности председателем Комитета."
+
+#: template/index.html:105
+msgid "Barchasi"
+msgstr "Все"
+
+#: template/index.html:120 template/index.html:121
+msgid "Hududlar dorivor o'simliklar yetishtirish bo'yicha ixtisoslashtiriladi."
+msgstr "Регионы специализируются на выращивании лекарственных растений."
+
+#: template/index.html:125
+msgid ""
+" 'Yovvoyi holda o'suvchi dorivor o'simliklarni muhofaza qilish, madaniy "
+"holda yetishtirish, qayta ishlash va mavjud resurslardan oqilona foydalanish "
+"chora-tadbirlari to'g'risida' Prezident qarori qabul qilindi"
+msgstr ""
+"Принято Постановление Президента 'о мерах по охране дикорастущих "
+"лекарственных растений, выращиванию, переработке культурных растений и "
+"рациональному использованию имеющихся ресурсов'."
+
+#: template/index.html:126
+msgid ""
+"Qarorga muvofiq, 2020 yil 1 maydan boshlab dorivor o'simliklarni "
+"yetishtirish, saqlash, birlamchi yoki chuqur qayta ishlash klasterlari "
+"tashkil etiladi, shuningdek, hududlar dorivor o'simliklar yetishtirish "
+"bo'yicha ixtisoslashtiriladi."
+msgstr ""
+"Согласно постановлению, с 1 мая 2020 года будут созданы кластеры по "
+"выращиванию, хранению, первичной или глубокой переработке лекарственных "
+"растений, а также регионы будут специализироваться на выращивании "
+"лекарственных растений."
+
+#: template/index.html:127
+msgid ""
+"Dorivor o'simliklar klasteri uchun yer maydoni Qoraqalpog'iston Respublikasi "
+"Vazirlar Kengashi, viloyatlar hokimliklari va tashabbuskorlar o'rtasida "
+"tuziladigan bitim asosida ajratiladi."
+msgstr ""
+"Земельный участок под кластер лекарственных растений будет выделен на "
+"основании соглашения, заключаемого между Советом Министров Республики "
+"Каракалпакстан, хокимиятами областей и инициаторами."
+
+#: template/index.html:128
+msgid ""
+"Xorijiy investorlar ishtirokidagi dorivor o'simliklar klasteriga yer maydoni "
+"investitsiya kiritish to'g'risidagi shartnoma imzolangandan so'ng Vazirlar "
+"Mahkamasi tomonidan ajratiladi."
+msgstr ""
+"Земельный участок под кластер лекарственных растений с участием иностранных "
+"инвесторов будет выделен Кабинетом министров после подписания Соглашения об "
+"инвестировании."
+
+#: template/index.html:129
+msgid ""
+"Klasterni tashkil etadigan tashabbuskor tomonidan quyidagi hujjatlar taqdim "
+"etiladi:"
+msgstr "Инициатор создания кластера предоставляет следующие документы:"
+
+#: template/index.html:130
+msgid "ariza;"
+msgstr "заявление;"
+
+#: template/index.html:131
+msgid "biznes-reja yoki texnik-iqtisodiy asosnoma;"
+msgstr "бизнес-план или технико-экономическое обоснование;"
+
+#: template/index.html:132
+msgid ""
+"zarur infratuzilma ob'ektlari, mol-mulk va boshqa vositalarning mavjudligi "
+"haqida ma'lumotnoma."
+msgstr ""
+"справка о наличии необходимых объектов инфраструктуры, имущества и других "
+"средств."
+
+#: template/index.html:146
+msgid ""
+"Markaz o'ziga yukatilgan asosiy vazifalarga muvofiq quydagi funksiyalarni "
+"amalga oshiradi."
+msgstr ""
+"Центр осуществляет следующие функции в соответствии с возложенными на него "
+"основными задачами."
+
+#: template/index.html:152
+msgid ""
+"dorivor o‘simliklarni ilmiy asosda yetishtirish va qayta ishlash, ulardan "
+"oqilona foydalanishning yagona strategiyasini shakllantirish va amalga "
+"oshirish sohasida"
+msgstr ""
+"формирование и реализация единой стратегии научно обоснованного выращивания "
+"и переработки лекарственных растений, их рационального использования;"
+
+#: template/index.html:160
+msgid ""
+"respublika hududidagi yovvoyi holda o‘suvchi dorivor o‘simliklar areallarini "
+"o‘rganish va zaxiralarini aniqlash, mavjud bioresurslar genofondini saqlash, "
+"onalik plantatsiyalarini tashkil etish sohasida"
+msgstr ""
+"изучение ареалов и определение запасов дикорастущих лекарственных растений "
+"на территории республики, сохранение генофонда существующих биоресурсов, "
+"организация материнских плантаций;"
+
+#: template/index.html:169
+msgid ""
+"urug‘lik materiallarni yetishtirish va tayyorlash, ko‘paytirish, kolleksion "
+"ko‘chatxonalar tashkil etish hamda ularning xomashyolarini qayta ishlash "
+"bilan bog‘liq ilmiy va amaliy tadqiqotlarni olib borish sohasida"
+msgstr ""
+
+#: template/index.html:178
+msgid ""
+"dorivor o‘simliklarni muayyan tuproq-iqlim sharoitlarini hisobga olgan holda "
+"madaniy holda yetishtirishni yo‘lga qo‘yish bo‘yicha aniq ilmiy asoslangan "
+"takliflar ishlab chiqish sohasida"
+msgstr ""
+"разработка конкретных научно обоснованных предложений по налаживанию "
+"культивирования лекарственных растений с учетом конкретных почвенно-"
+"климатических условий;"
+
+#: template/index.html:186
+msgid ""
+"tuproq-iqlim sharoitlarini hisobga olib madaniy holda yetishtiriladigan "
+"dorivor o‘simliklarning agrotexnologik xaritalarini Qishloq xo‘jaligi "
+"vazirligi va O‘rmon xo‘jaligi davlat qo‘mitasi buyurtmasiga ko‘ra ishlab "
+"chiqish sohasida"
+msgstr ""
+"разработка агротехнологических карт лекарственных растений, выращиваемых с "
+"учетом почвенно-климатических условий, по заказу Министерства сельского "
+"хозяйства и Комитета;"
+
+#: template/index.html:194
+msgid ""
+"dorivor o‘simliklar kimyoviy tarkibini o‘rganish, mahsulotini standartlash "
+"va amaldagi qonun hujjatlariga muvofiq sertifikatlash sohasida"
+msgstr ""
+"изучение химического состава лекарственных растений, стандартизация их "
+"продукции и сертификация в соответствии с действующим законодательством;"
+
+#: template/portfolio.html:13 template/portfolio.html:15
+msgid "O'simliklar"
+msgstr "Растения"
+
+#: template/portfolio.html:27
+msgid "Hammasi"
+msgstr "Все"
+
+#: template/portfolio.html:42 template/portfolio.html:43
+#: template/portfolio.html:74 template/portfolio.html:75
+#: template/portfolio.html:122 template/portfolio.html:123
+msgid "App"
+msgstr "Апп"
+
+#: template/portfolio.html:58 template/portfolio.html:59
+#: template/portfolio.html:106 template/portfolio.html:107
+#: template/portfolio.html:170 template/portfolio.html:171
+msgid "Web"
+msgstr "Веб"
+
+#: template/portfolio.html:90 template/portfolio.html:91
+#: template/portfolio.html:138 template/portfolio.html:139
+#: template/portfolio.html:154 template/portfolio.html:155
+msgid "Card"
+msgstr "Карт"
+
+#: template/services.html:12
+msgid "Markaz faoiliyati"
+msgstr "Деятельность центра"
+
+#: template/services.html:23
+msgid "Markazning asosiy vazifalari va funksiyalari"
+msgstr "Основные задачи и функции центра:"
+
+#: template/services.html:24
+msgid ""
+" Quyidagilar Markazning asosiy vazifalari hisoblanadi:<br>\n"
+"                        dorivor o‘simliklarni ilmiy asosda yetishtirish va "
+"qayta ishlash, ulardan oqilona\n"
+"                        foydalanishning yagona strategiyasini shakllantirish "
+"va amalga oshirish;<br>\n"
+"                        respublika hududidagi yovvoyi holda o‘suvchi dorivor "
+"o‘simliklar areallarini o‘rganish va\n"
+"                        zaxiralarini aniqlash, mavjud bioresurslar "
+"genofondini saqlash, onalik plantasiyalarini tashkil\n"
+"                        etish;<br>\n"
+"                        urug‘lik materiallarni yetishtirish va tayyorlash, "
+"ko‘paytirish, kolleksion ko‘chatxonalar\n"
+"                        tashkil etish hamda ularning xomashyolarini qayta "
+"ishlash bilan bog‘liq ilmiy va amaliy\n"
+"                        tadqiqotlarni olib borish;<br>\n"
+"                        dorivor o‘simliklarni muayyan tuproq-iqlim "
+"sharoitlarini hisobga olgan holda madaniy holda\n"
+"                        yetishtirishni yo‘lga qo‘yish bo‘yicha aniq ilmiy "
+"asoslangan takliflar ishlab chiqish;<br>\n"
+"                        tuproq-iqlim sharoitlarini hisobga olib madaniy "
+"holda yetishtiriladigan dorivor o‘simliklarning\n"
+"                        agrotexnologik xaritalarini Qishloq xo‘jaligi "
+"vazirligi va Qo‘mita buyurtmasiga ko‘ra ishlab\n"
+"                        chiqish;<br>\n"
+"                        dorivor o‘simliklar kimyoviy tarkibini o‘rganish, "
+"mahsulotini standartlash va amaldagi qonun\n"
+"                        hujjatlariga muvofiq sertifikatlash;<br>\n"
+"                        dorivor o‘simliklarga bo‘lgan ichki va tashqi "
+"bozorlar talabini o‘rganish bo‘yicha marketing\n"
+"                        tadqiqotlari olib borish;<br>\n"
+"                        dorivor o‘simliklar yetishtiruvchi va qayta "
+"ishlovchi fermer xo‘jaliklari, tashkilotlar va\n"
+"                        boshqa sub'ektlar rahbarlari va mutaxassislarining "
+"malakasini oshirib borishga yo‘naltirilgan\n"
+"                        dasturlarni tayyorlash va o‘qitish tizimini tashkil "
+"etish.<br>\n"
+"                         <br><br>Markaz o‘ziga yuklangan asosiy vazifalarga "
+"muvofiq quyidagi funksiyalarni amalga oshiradi:<br>\n"
+"                        a) dorivor o‘simliklarni ilmiy asosda yetishtirish "
+"va qayta ishlash, ulardan oqilona\n"
+"                        foydalanishning yagona strategiyasini shakllantirish "
+"va amalga oshirish sohasida:\n"
+"                        dorivor o‘simliklarni yetishtirish, tayyorlash, "
+"qayta ishlash sohasiga zamonoviy\n"
+"                        texnologiyalarni joriy etish, rivojlantirish va "
+"samaradorligini oshirish, mavjud muammolarni\n"
+"                        doimiy o‘rganish, ularni bartaraf etish yuzasidan "
+"Vazirlar Mahkamasiga takliflar kiritib borish;\n"
+"                        dorivor o‘simliklarni yetishtirish, tayyorlash "
+"hajmlarini oshirish va turlarini ko‘paytirishni\n"
+"                        ichki va tashqi bozor ehtiyojlaridan kelib chiqqan "
+"holda tizimli o‘rganish;\n"
+"                        ilmiy-tadqiqot va oliy ta'lim muassasalari tomonidan "
+"amalga oshirilgan dorivor o‘simliklarga\n"
+"                        doir ilmiy tadqiqotlar, yangi innovasion ishlanmalar "
+"bo‘yicha ma'lumotlar bazasini\n"
+"                        shakllantirish va tizimli ravishda yangilanib "
+"borilishini amalga oshirish;\n"
+"                        respublikada faoliyat olib borayotgan ilmiy-tadqiqot "
+"muassasalari tomonidan amalga\n"
+"                        oshirilayotgan sohaga oid loyihalarni tahlil qilish "
+"va natijalariga ko‘ra xulosa berish;<br>\n"
+"                        b) respublika hududidagi yovvoyi holda o‘suvchi "
+"dorivor o‘simliklar areallarini o‘rganish va\n"
+"                        zaxiralarini aniqlash, mavjud bioresurslar "
+"genofondini saqlash, onalik plantasiyalarini tashkil\n"
+"                        etish sohasida:\n"
+"                        tegishli ilmiy-tadqiqot muassasalari bilan "
+"hamkorlikda yovvoyi holda o‘suvchi dorivor\n"
+"                        o‘simliklar areallarini va zaxiralarini o‘rganish "
+"borasida ilmiy-tadqiqotlar olib borishni\n"
+"                        tashkil etish va natijalari bo‘yicha ishlanmalar, "
+"takliflar ishlab chiqish;\n"
+"                        yovvoyi holda o‘suvchi dorivor o‘simliklar nav-"
+"namunalarini yig‘ish va ulardan dorivor moddalari\n"
+"                        eng ko‘p to‘planadigan nav-namunalarni aniqlash va "
+"seleksiya yo‘li bilan yangi navlarni\n"
+"                        yaratishni yo‘lga qo‘yish;\n"
+"                        hududlarning tabiiy-iqlim sharoitidan kelib chiqib "
+"ixtisoslashgan o‘rmon xo‘jaliklarida dorivor\n"
+"                        o‘simliklarning onalik plantasiyalarini barpo etish "
+"va tadqiqot ishlarini tashkil etish;\n"
+"                        mavjud bioresurslar genofondini saqlash borasida "
+"ilmiy-tadqiqot ishlarini amalga oshirish va\n"
+"                        unga mahalliy hamda xorijiy investorlarning "
+"investisiyalarini, xalqaro moliya institutlari\n"
+"                        grantlarini jalb etish;\n"
+"                        o‘rmon fondi yerlarida dorivor o‘simliklarning "
+"qat'iy hisobini yuritish;<br>\n"
+"                        v) urug‘lik materiallarni yetishtirish va "
+"tayyorlash, ko‘paytirish, kolleksion ko‘chatxonalar\n"
+"                        tashkil etish hamda ularning xomashyolarini qayta "
+"ishlash bilan bog‘liq ilmiy va amaliy\n"
+"                        tadqiqotlarni olib borish sohasida:\n"
+"                        dorivor o‘simliklarning kamayib borayotgan noyob "
+"turlarini saqlash va ko‘paytirishni tashkil\n"
+"                        etish;\n"
+"                        yangi turdagi dorivor o‘simliklarni "
+"madaniylashtirish bo‘yicha ixtisoslashgan o‘rmon\n"
+"                        xo‘jaliklarida urug‘chilik tajriba uchastkalarini "
+"tashkil etish;\n"
+"                        ixtisoslashgan o‘rmon xo‘jaliklarida dorivor "
+"o‘simliklarning, ayniqsa, kamayib borayotgan noyob\n"
+"                        turdagi dorivor o‘simliklarning kolleksion "
+"ko‘chatxonalarini tashkil etish hamda xomashyosini\n"
+"                        tayyorlash va qayta ishlash bilan bog‘liq ilmiy va "
+"amaliy tadqiqotlar olib borish;<br>\n"
+"                        g) dorivor o‘simliklarni muayyan tuproq-iqlim "
+"sharoitlarini hisobga olgan holda madaniy holda\n"
+"                        yetishtirishni yo‘lga qo‘yish bo‘yicha aniq ilmiy "
+"asoslangan takliflar ishlab chiqish sohasida:\n"
+"                        ichki va tashqi bozor ehtiyojlarini o‘rganish "
+"asosida o‘rmon xo‘jaliklari va boshqa dorivor\n"
+"                        o‘simliklar yetishtiruvchi sub'ektlar bo‘yicha "
+"dorivor o‘simliklarni rivojlantirish bo‘yicha\n"
+"                        «yo‘l xaritasi»ni ishlab chiqish;\n"
+"                        hududlarning tuproq-iqlim sharoitlaridan kelib "
+"chiqib dorivor o‘simliklarni ilmiy asoslangan\n"
+"                        holda joylashtirish bo‘yicha takliflar ishlab "
+"chiqish;\n"
+"                        tabiiy holda o‘sadigan dorivor o‘simliklarni "
+"madaniylashtirish, chet el florasiga mansub bo‘lgan\n"
+"                        dorivor o‘simliklarni mahalliy sharoitda "
+"urug‘laridan ko‘paytirish va introduksiyalashni yo‘lga\n"
+"                        qo‘yish;<br>\n"
+"                        d) tuproq-iqlim sharoitlarini hisobga olib madaniy "
+"holda yetishtiriladigan dorivor\n"
+"                        o‘simliklarning agrotexnologik xaritalarini Qishloq "
+"xo‘jaligi vazirligi va O‘rmon xo‘jaligi\n"
+"                        davlat qo‘mitasi buyurtmasiga ko‘ra ishlab chiqish "
+"sohasida:\n"
+"                        agrotexnolik xaritalarni ishlab chiqish bo‘yicha "
+"dorivor o‘simlik turlarini aniqlash va\n"
+"                        ro‘yxatini shakllantirish;\n"
+"                        agrotexnolik xaritalarni ishlab chiqish uchun "
+"ketadigan sarf-xarajatlarni aniqlash va\n"
+"                        belgilangan tartibda moliyalashtirish uchun "
+"mablag‘larni yo‘naltirish;\n"
+"                        tegishli ilmiy-tadqiqot muassasalari bilan "
+"hamkorlikda dorivor o‘simliklarni madaniy holda\n"
+"                        yetishtirishni ilmiy asoslangan holda tashkil etish "
+"va sarf-xarajatlarni belgilash maqsadida\n"
+"                        agrotexnologik xaritalarni ishlab chiqishni amalga "
+"oshirish;<br>\n"
+"                        e) dorivor o‘simliklar kimyoviy tarkibini o‘rganish, "
+"mahsulotini standartlash va amaldagi qonun\n"
+"                        hujjatlariga muvofiq sertifikatlash sohasida:\n"
+"                        dorivor o‘simliklar sohasida xalqaro standartlar "
+"talablarini doimiy o‘rganish;\n"
+"                        laboratoriya jihozlarining xalqaro standart "
+"talablariga mosligini ta'minlash;\n"
+"                        sohaga malakali mutaxassislarni jalb etish va "
+"ularning tajriba hamda ko‘nikmalarini oshirib\n"
+"                        borish;\n"
+"                        mahsulotlarni standartlash va sertifikatlash "
+"bo‘yicha rivojlangan mamlakatlar ilmiy-tadqiqot\n"
+"                        muassasalari bilan hamkorlikni yo‘lga qo‘yish va "
+"ularning tajribasini o‘rganish va joriy etish;\n"
+"                        sohaga ilg‘or texnoligiyalarni jalb etish va ularni "
+"qo‘llash oshirish;\n"
+"                        dorivor o‘simliklar mahsulotlarini ishlab "
+"chiqarishning xalqaro standartlarga muvofiqligini\n"
+"                        nazorat qilish mexanizmlarini ishlab chiqish;\n"
+"                        laboratoriyani zamonoviy jihozlar bilan ta'minlashga "
+"xorijiy institut hamda donorlarning\n"
+"                        mablag‘larini jalb etish;\n"
+"                        ilmiy loyihalar doirasida dorivor o‘simliklarning "
+"iqlim sharoitiga mos holda o‘sishi va\n"
+"                        rivojlanishi hamda olingan mahsulotlarning kimyoviy "
+"tarkibi mosligi bo‘yicha dorivor\n"
+"                        o‘simliklarning har bir turi va naviga alohida "
+"lisenziya berishni yoki belgilangan tartibda\n"
+"                        akkreditasiyadan o‘tgan sertifikatlash organi "
+"tomonidan sertifikatlashni amalga oshirish;<br>\n"
+"                        yo) dorivor o‘simliklarga bo‘lgan ichki va tashqi "
+"bozorlar talabini o‘rganish bo‘yicha marketing\n"
+"                        tadqiqotlari olib borish sohasida:\n"
+"                        dorivor o‘simliklarga bo‘lgan bozor talablarini "
+"o‘rganish bo‘yicha jahon tajribasini o‘rganish\n"
+"                        va amaliyotga joriy etish;\n"
+"                        sohaga malakali mutaxassislarni jalb etish va "
+"marketing tadqiqotlari o‘tkazish;\n"
+"                        ichki va tashqi bozorlar talablari asosida dorivor "
+"o‘simliklarni yetishtirish bo‘yicha\n"
+"                        takliflarni ishlab chiqish hamda Qishloq xo‘jaligi "
+"vazirligiga va O‘rmon xo‘jaligi davlat\n"
+"                        qo‘mitasiga kiritish;<br>\n"
+"                        j) dorivor o‘simliklar yetishtiruvchi va qayta "
+"ishlovchi fermer xo‘jaliklari, tashkilotlar va\n"
+"                        boshqa sub'ektlar rahbarlari va mutaxassislarining "
+"malakasini oshirib borishga yo‘naltirilgan\n"
+"                        dasturlarni tayyorlash va o‘qitish tizimini tashkil "
+"etish sohasida:\n"
+"                        sohada ilmiy xodimlarni tayyorlashni, faoliyat "
+"ko‘rsatayotgan xodimlarni qayta tayyorlash va\n"
+"                        ularning malakasini oshirishni tashkil etish;\n"
+"                        dorivor o‘simliklarni yetishtirish, quritish, qayta "
+"ishlash, marketing yo‘nalishi bo‘yicha\n"
+"                        rahbar va mutaxassislarning malakasini oshirishga "
+"qaratilgan yillik o‘quv dasturlarini ishlab\n"
+"                        chiqish;\n"
+"                        mahalliy hokimliklar va viloyat o‘rmon xo‘jaliklari "
+"boshqarmalari bilan birgalikda dorivor\n"
+"                        o‘simliklarni yetishtiruvchi va qayta ishlovchi "
+"fermer xo‘jaliklari, tashkilotlar va boshqa\n"
+"                        sub'ektlar bo‘yicha malaka oshirish o‘quv "
+"dasturlarini o‘tkazish grafik-jadvalini tayyorlash\n"
+"                        xamda amalga oshirish mexanizimini ishlab chiqish;\n"
+"                        respublikada hamda xorijda soha rahbarlari va "
+"mutaxassislarini qayta tayyorlash va ularning\n"
+"                        malakasini oshirishni tashkil etishda qatnashish."
+"<br>\n"
+"                        Markaz qonunchilik hujjatlariga muvofiq boshqa "
+"funksiyalarni ham bajarishi mumkin.\n"
+"                        "
+msgstr ""
+"Основными задачами Центра являются:<br>\n"
+"-формирование и реализация единой стратегии научного выращивания и "
+"переработки лекарственных растений, их рационального использования;<br>-"
+"изучение ареалов дикорастущих лекарственных растений на территории "
+"республики и определение их запасов, сохранение генофонда существующих "
+"биоресурсов, создание маточников;<br>-проведение научно-практических "
+"исследований, связанных с выращиванием и заготовкой семенного материала, "
+"репродукцией, созданием коллективных питомников и переработкой их сырья;<br>-"
+"разработка конкретных научно-обоснованных предложений по организации "
+"культурного возделывания лекарственных растений с учетом конкретных почвенно-"
+"климатических условий;<br>-разработка агротехнологических карт возделываемых "
+"лекарственных растений с учетом почвенно-климатических условий по приказу "
+"Минсельхоза и Комитета по лесного хозяйства-изучение химического состава "
+"лекарственных растений, стандартизация и сертификация продукции в "
+"соответствии с действующим законодательством;<br>-проводить маркетинговые "
+"исследования для изучения спроса внутреннего и внешнего рынков на "
+"лекарственные растения;<br>-организация подготовки и обучения системы "
+"программ, направленных на повышение квалификации руководителей и "
+"специалистов фермерских хозяйств, организаций и других субъектов, "
+"занимающихся выращиванием и переработкой лекарственных растений.<br>Центр "
+"выполняет следующие функции в соответствии с возложенными на него основными "
+"задачами:-а) в области научного выращивания и переработки лекарственных "
+"растений формирование и реализация единой стратегии их рационального "
+"использования:<br>-внедрение современных технологий в области выращивания, "
+"приготовления и переработки лекарственных растений, разработка и повышение "
+"эффективности, постоянное изучение существующих проблем, внесение в Кабинет "
+"Министров предложений по их устранению;<br>-Систематическое изучение "
+"выращивания лекарственных растений, увеличение объемов заготовки и "
+"увеличение видов исходя из потребностей внутреннего и внешнего рынков;<br>-"
+"формирование и систематическое обновление базы данных о научных "
+"исследованиях лекарственных растений, новых инновационных разработках, "
+"проводимых научно-исследовательскими и высшими учебными заведениями;<br>-"
+"анализировать проекты в данной области, реализуемые действующими в "
+"республике научно-исследовательскими учреждениями, и давать заключение по их "
+"результатам;<br>-б) в области изучения и выявления запасов лекарственных "
+"растений, произрастающих на территории республики в диком виде, сохранения "
+"имеющегося генофонда биоресурсов, создания маточников:<br>-во взаимодействии "
+"с соответствующими научно-исследовательскими учреждениями организовывать "
+"исследования по изучению ареалов и запасов дикорастущих лекарственных "
+"растений и разрабатывать по результатам разработки и предложения;<br>-сбор "
+"сортов лекарственных растений, произрастающих в дикой природе, и определение "
+"сортов с наибольшим содержанием лекарственных веществ и начало создания "
+"новых сортов путем селекции;<br>-создание маточников лекарственных растений "
+"в специализированных лесничествах с учетом природно-климатических условий "
+"регионов и организация научно-исследовательских работ;<br>-проводить научно-"
+"исследовательские работы по сохранению генофонда имеющихся биоресурсов и "
+"привлекать инвестиции местных и иностранных инвесторов, гранты международных "
+"финансовых институтов;<br>-ведение строгого учета лекарственных растений на "
+"землях лесного фонда;<br>-в) в области проведения научно-практических "
+"исследований, связанных с выращиванием и заготовкой семенного материала, "
+"репродукцией, созданием коллективных питомников и переработкой их сырья:<br>-"
+"организация сохранения и воспроизводства редких видов лекарственных "
+"растений, находящихся под угрозой исчезновения;<br>-организация опытных "
+"участков семян в лесхозах, специализирующихся на выращивании новых видов "
+"лекарственных растений;<br>-организация коллективных питомников "
+"лекарственных растений, особо редких редких видов лекарственных растений, "
+"проведение научно-практических исследований, связанных с заготовкой и "
+"переработкой сырья в специализированных лесхозах;<br>-г) в области "
+"разработки конкретных научно обоснованных предложений по организации "
+"культурного выращивания лекарственных растений с учетом конкретных почвенно-"
+"климатических условий:<br>-разработка «дорожной карты» освоения "
+"лекарственных растений лесхозами и иными субъектами, выращивающими "
+"лекарственные растения, на основе изучения потребностей внутреннего и "
+"внешнего рынков;<br>-разработка предложений по научно-обоснованному "
+"размещению лекарственных растений с учетом почвенно-климатических условий "
+"регионов;<br>-выращивание естественно произрастающих лекарственных растений, "
+"налаживание репродукции и интродукции лекарственных растений, принадлежащих "
+"к чужеродной флоре, из семян в местных условиях;<br>-д) в области разработки "
+"агротехнологических карт возделываемых лекарственных растений с учетом "
+"почвенно-климатических условий согласно приказу Минсельхоза и Госкомлесхоза:"
+"<br>-выявление и формирование списка видов лекарственных растений для "
+"разработки агротехнологических карт;<br>-определение затрат на разработку "
+"агротехнологических карт и направление средств на финансирование в "
+"установленном порядке;<br>-разработка агротехнологических карт с целью "
+"организации научно-обоснованного возделывания лекарственных растений "
+"совместно с соответствующими научно-исследовательскими учреждениями и "
+"определение затрат;<br>-е) в области изучения химического состава "
+"лекарственных растений, стандартизации и сертификации продукции в "
+"соответствии с действующим законодательством:<br>-постоянное изучение "
+"требований международных стандартов в области лекарственных растений;<br>-"
+"обеспечение соответствия лабораторного оборудования требованиям "
+"международных стандартов;<br>-привлекать в сферу квалифицированных "
+"специалистов и повышать их опыт и навыки;<br>-налаживание сотрудничества с "
+"научно-исследовательскими учреждениями развитых стран по стандартизации и "
+"сертификации продукции, изучение и внедрение их опыта;<br>-привлекать в "
+"отрасль передовые технологии и расширять их применение;<br>-разработка "
+"механизмов контроля соответствия производства лекарственных средств "
+"растительного происхождения международным стандартам;<br>-привлекать "
+"средства зарубежных институтов и доноров для оснащения лаборатории "
+"современным оборудованием;<br>-в рамках научных проектов выдавать отдельную "
+"лицензию на каждый вид и сорт лекарственных растений по росту и развитию "
+"лекарственных растений в соответствии с климатическими условиями и "
+"пригодностью химического состава получаемой продукции, либо проводить "
+"проведение сертификации аккредитованным органом по сертификации в "
+"установленном порядке;<br>-ё) в области проведения маркетинговых "
+"исследований для изучения спроса внутреннего и внешнего рынков лекарственных "
+"растений:<br>-изучать и применять на практике мировой опыт изучения "
+"потребностей рынка лекарственных растений;<br>-привлекать в сферу "
+"квалифицированных специалистов и проводить маркетинговые исследования;<br>-"
+"ж) в области подготовки программ и организации системы обучения, "
+"направленных на повышение квалификации руководителей и специалистов "
+"фермерских хозяйств, организаций и других субъектов, занимающихся "
+"выращиванием и переработкой лекарственных растений:<br>-организация "
+"подготовки научных кадров по специальности, переподготовка рабочих кадров и "
+"повышение их квалификации;<br>-разработка ежегодных образовательных "
+"программ, направленных на повышение квалификации руководителей и "
+"специалистов в области выращивания, сушки, переработки и реализации "
+"лекарственных растений;<br>-совместно с органами местного самоуправления и "
+"областными управлениями лесного хозяйства подготовить и внедрить механизм "
+"проведения обучающих программ для фермерских хозяйств, организаций и иных "
+"субъектов, занимающихся выращиванием и переработкой лекарственных растений;"
+"<br>-участие в переподготовке руководителей и специалистов отрасли в "
+"республике и за рубежом и организация их повышения квалификации.<br>Центр "
+"может выполнять и иные функции в соответствии с законодательством."
+
+#: template/team.html:33
+msgid "Qabul"
+msgstr "Восприятие"
+
+#: template/team.html:34
+msgid "Ishonch raqamlari"
+msgstr "Номера доверия"
+
+#: venv/lib/python3.10/site-packages/django/contrib/messages/apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.10/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/paginator.py:50
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/paginator.py:52
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/paginator.py:57
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:23
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:105
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:743
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:166
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:177
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.10/site-packages/django/core/validators.py:285
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:293
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:305
+#: venv/lib/python3.10/site-packages/django/core/validators.py:313
+#: venv/lib/python3.10/site-packages/django/core/validators.py:342
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:322
+#: venv/lib/python3.10/site-packages/django/core/validators.py:343
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:334
+#: venv/lib/python3.10/site-packages/django/core/validators.py:341
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:377
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:383
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:418
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:427
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:437
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:455
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:478
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:343
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:378
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:480
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:485
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:490
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:559
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:620
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/base.py:1364
+#: venv/lib/python3.10/site-packages/django/forms/models.py:894
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/base.py:1366
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:129
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:130
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:131
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:132
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:136
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:156
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1050
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1051
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1053
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1094
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1192
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1293
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1297
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1432
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1301
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1428
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1436
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1441
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1565
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1567
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1724
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1728
+msgid "Duration"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1780
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1805
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1883
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1885
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1925
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1927
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2019
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2036
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2044
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2075
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2168
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2169
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2171
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2222
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2237
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2252
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2268
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2304
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2374
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2378
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2382
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2490
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2514
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2579
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2581
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/files.py:232
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/files.py:392
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/json.py:18
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/json.py:20
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:903
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:905
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:1204
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:1261
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:1263
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:1311
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.10/site-packages/django/forms/boundfield.py:176
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:91
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:298
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:459
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1232
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:482
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1233
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:509
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:543
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:544
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:610
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:611
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:612
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:614
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:619
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:685
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:848
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:940
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1563
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:942
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1061
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1561
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1062
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1301
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1331
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.10/site-packages/django/forms/forms.py:98
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/forms.py:248
+#: venv/lib/python3.10/site-packages/django/forms/forms.py:328
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:67
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:418
+#, python-format
+msgid "Please submit at most %d form."
+msgid_plural "Please submit at most %d forms."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:434
+#, python-format
+msgid "Please submit at least %d form."
+msgid_plural "Please submit at least %d forms."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:470
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:477
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:483
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:887
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:892
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:899
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:908
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1335
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1426
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1565
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/utils.py:204
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:434
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:435
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:436
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:765
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:766
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:767
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:858
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:888
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:905
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:907
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:909
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:911
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:913
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:915
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:77
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:78
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:83
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:84
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:155
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:157
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/text.py:77
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/text.py:253
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.10/site-packages/django/utils/text.py:272
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:94
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:14
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:111
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:112
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:116
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:122
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:127
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:136
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:142
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:148
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:349
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/static.py:39
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/static.py:41
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/static.py:80
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#~ msgid "About Eterna"
+#~ msgstr "Эбоут Этерна"
+
+#~ msgid ""
+#~ "Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada "
+#~ "terra videa magna derita valies darta donna mare fermentum iaculis eu non "
+#~ "diam phasellus"
+#~ msgstr "фыв ыфвфвывйк сыв а уц ацаваы ыа ывацуа вы ва авыа ыва"
+
+#~ msgid "Me'yoriy xujjatlar"
+#~ msgstr "Нормативные документы"
+
+#~ msgid "Web Design"
+#~ msgstr "Веб-дизайн"
+
+#~ msgid "Web Development"
+#~ msgstr "Веб-разработка"
+
+#~ msgid "Product Management"
+#~ msgstr "Управление продуктами"
+
+#~ msgid "Marketing"
+#~ msgstr "Маркетинг"
+
+#~ msgid "Graphic Design"
+#~ msgstr "График дизайнер"
+
+#~ msgid "Qidirish"
+#~ msgstr "Поиск"
+
+#~ msgid "So'ngi postlar"
+#~ msgstr "Последние посты"
+
+#~ msgid "Nihil blanditiis at in nihil autem"
+#~ msgstr "Последние посты Последние посты"
+
+#~ msgid "Pricing"
+#~ msgstr "Цена"
+
+#~ msgid "Free"
+#~ msgstr "Бесплатно"
+
+#~ msgid "per month"
+#~ msgstr "за мецетс"
+
+#~ msgid "Quam adipiscing vitae proin"
+#~ msgstr "аыв авыа ываываы ваыа выа ываы аы ваы"
+
+#~ msgid "Nec feugiat nisl pretium"
+#~ msgstr "фы вфв фы вфв фыв фыв фв ф ввф ы вф вфв ф"
+
+#~ msgid "Nulla at volutpat diam uteera"
+#~ msgstr "фывфывфвф выф вф вфы вф выфвф в фвфывфы"
+
+#~ msgid "Sotib olish"
+#~ msgstr "Покупать"
+
+#~ msgid "Biznes"
+#~ msgstr "Бизнес"
+
+#~ msgid "har oy"
+#~ msgstr "каждый месяц"
+
+#~ msgid "Har oy"
+#~ msgstr "каждый месяц"
+
+#~ msgid "Developer"
+#~ msgstr "каждый месяц"

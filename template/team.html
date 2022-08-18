@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="{% url 'pages:home' %}">{% trans "Asosiy" %}</a></li>
+          <li>{% trans "Rahbarlar" %}</li>
+        </ol>
+        <h2>{% trans "Rahbarlar" %}</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="row">
+{% for data in team %}           
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              {% if data.image %}<img src="{{ data.image.url }}" alt="">{% endif %}
+              <h4>{{ data.fullname }}</h4>
+              <span>{{ data.lavozim }}<br> {{data.brith_day}}</span>
+              <p>
+                <ul>
+                  <ol class="bi bi-clock">&nbsp;&nbsp;&nbsp; {% trans "Qabul" %}: <b>{{ data.qabul }}</b></ol>
+                  <ol class="bi bi-telephone-inbound">&nbsp;&nbsp;&nbsp; {% trans "Ishonch raqamlari" %}:  {{ data.tel_raqam }}</ol>
+                </ul>
+              </p>
+{#              <div class="social">#}
+{#                <a href=""><i class="bi bi-twitter"></i></a>#}
+{#                <a href=""><i class="bi bi-facebook"></i></a>#}
+{#                <a href=""><i class="bi bi-instagram"></i></a>#}
+{#                <a href=""><i class="bi bi-linkedin"></i></a>#}
+{#              </div>#}
+            </div>
+          </div>
+{% endfor %}
+          </div>
+      </div>
+    </section><!-- End Team Section -->
+
+  </main><!-- End #main -->
+{% endblock content %}

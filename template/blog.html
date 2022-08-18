@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static i18n %}
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
+
+                <ol>
+                    <li><a href="{% url 'pages:home' %}">{% trans "Asosiy" %}</a></li>
+                    <li>{% trans "Blog" %}</li>
+                </ol>
+                <h2>{% trans "BLog" %}</h2>
+
+            </div>
+        </section><!-- End Breadcrumbs -->
+
+        <!-- ======= Blog Section ======= -->
+        <section id="blog" class="blog">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+
+                    <div class="col-lg-8 entries">
+                        {% for data in page_obj %}
+
+                            <article class="entry">
+
+                                <div class="entry-img">
+                                    {% if data.image %}
+                                        <img src="{{ data.image.url }}" alt="" class="img-fluid">
+                                    {% endif %}
+                                </div>
+
+                                <h2 class="entry-title">
+                                    <a href="{% url 'pages:blog-single' %}">{{ data.title }}</a>
+                                </h2>
+
+                                <div class="entry-meta">
+                                    <ul>
+                                        <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
+                                                href="{% url 'pages:blog-single' %}">
+                                            <time datetime="2020-01-01">{{ data.data }}</time>
+                                        </a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="entry-content">
+                                    <p>
+                                        {{ data.title }}
+                                    </p>
+                                    <div class="read-more">
+                                        <a href="{% url 'pages:blog-single' %}">{% trans "Ko'proq" %}</a>
+                                    </div>
+                                </div>
+
+                            </article><!-- End blog entry -->
+                        {% endfor %}
+                        <div class="blog-pagination">
+                            <ul class="justify-content-center">
+                                <div class="pagination">
+                                     <span class="step-links">
+                                        {% if page_obj.has_previous %}
+                                            <a href="?page=1">&laquo; {% trans "oldingi" %}oldingi</a>
+                                            <a href="?page={{ page_obj.previous_page_number }}"></a>
+                                        {% endif %}
+
+                                         <span class="current">
+                                            {% trans "saxifa" %} {{ page_obj.number }} {% trans "dan" %} {{ page_obj.paginator.num_pages }}.
+                                        </span>
+                                         {% if page_obj.has_next %}
+                                             <a href="?page={{ page_obj.next_page_number }}">{% trans "keyingi" %}</a>
+                                             <a href="?page={{ page_obj.paginator.num_pages }}"> &raquo;</a>
+                                         {% endif %}
+                                      </span>
+                                </div>
+                            </ul>
+                        </div>
+
+                    </div><!-- End blog entries list -->
+
+                    <div class="col-lg-4">
+
+                        <div class="sidebar">
+
+{#                            <h3 class="sidebar-title">{% trans "Qidirish" %}</h3>#}
+{#                            <div class="sidebar-item search-form">#}
+{#                                <form action="">#}
+{#                                    <input type="text">#}
+{#                                    <button type="submit"><i class="bi bi-search"></i></button>#}
+{#                                </form>#}
+{#                            </div><!-- End sidebar search formn-->#}
+
+                            <h3 class="sidebar-title">{% trans "Kategoriyalar" %}</h3>
+                            <div class="sidebar-item categories">
+                                <ul>
+                                    {% for count in type %}
+                                        <li><a href="#">{{ count.type }} </a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div><!-- End sidebar categories-->
+
+
+                            <h3 class="sidebar-title">Teglar</h3>
+                            <div class="sidebar-item tags">
+                                <ul>
+                                    {% for data in type %}
+                                        <li><a href="#">{{ data.type }}</a></li>
+                                    {% endfor %}
+
+                                </ul>
+                            </div><!-- End sidebar tags-->
+
+                        </div><!-- End sidebar -->
+
+                    </div><!-- End blog sidebar -->
+
+                </div>
+
+            </div>
+        </section><!-- End Blog Section -->
+
+    </main><!-- End #main -->
+{% endblock content %}
