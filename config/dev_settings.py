@@ -1,9 +1,9 @@
-import os
+from .settings import *
+from datetime import timedelta
 
-from .base import *
+DEBUG = True
 
-
-DEBUG = False
+FRONTEND_BASE_URL = "https://ziravor.uz/"
 
 DATABASES = {
     'default': {
@@ -15,3 +15,7 @@ DATABASES = {
         "PORT": os.environ.get("SQL_PORT", "5432"),
     }
 }
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
