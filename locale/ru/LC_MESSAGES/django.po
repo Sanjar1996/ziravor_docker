@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-23 12:03+0500\n"
+"POT-Creation-Date: 2022-09-26 10:57+0500\n"
 "PO-Revision-Date: 2022-09-23 12:05+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,15 +20,15 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Poedit 3.1.1\n"
 
-#: template/about.html:13 template/base.html:77 template/base.html:114
+#: template/about.html:13 template/base.html:73 template/base.html:110
 #: template/blog.html:12 template/contact.html:12 template/portfolio.html:12
 #: template/pricing-detail.html:9 template/pricing.html:12
 #: template/services.html:11 template/team.html:12
 msgid "Asosiy"
 msgstr "Основные"
 
-#: template/about.html:14 template/about.html:16 template/base.html:79
-#: template/base.html:115 template/index.html:86
+#: template/about.html:14 template/about.html:16 template/base.html:75
+#: template/base.html:111 template/index.html:86
 msgid "Yangiliklar"
 msgstr "Новости"
 
@@ -45,97 +45,82 @@ msgstr ""
 "растений при Государственном комитете по лесному хозяйству Республики "
 "Узбекистан"
 
-#: template/base.html:66
-#, fuzzy
-#| msgid ""
-#| "O'rmon xo'jaligi davlat qo'mitasi huzuridagi dorivor o'simiklarni "
-#| "yetishtirish va qayta ishlash IICHM!"
-msgid ""
-"O'rmon xo'jaligi davlat qo'mitasi huzuridagi dorivor o'simiklarni "
-"yetishtirish va\n"
-"                        qayta ishlash IICHM!"
-msgstr ""
-"НПЦ по выращиванию и переработке лекарственных растений при Государственном "
-"комитете по лесному хозяйству Республики Узбекистан"
-
-#: template/base.html:81 template/base.html:116 template/services.html:14
+#: template/base.html:77 template/base.html:112 template/services.html:14
 msgid "Markaz faoliyati"
 msgstr "Деятельность центра"
 
-#: template/base.html:83
+#: template/base.html:79
 msgid "Hodimlar"
 msgstr "Сотрудники"
 
-#: template/base.html:86
+#: template/base.html:82
 msgid "Dorivor o'simliklar"
 msgstr "Лекарственные растения"
 
 # template/pricing-detail.html:10
-#: template/base.html:88 template/pricing-detail.html:10
+#: template/base.html:84 template/pricing-detail.html:10
 #: template/pricing-detail.html:12 template/pricing.html:13
 #: template/pricing.html:15
 msgid "Elektron ma'lumotlar bazasi"
 msgstr "Электронная база данных"
 
-#: template/base.html:91
+#: template/base.html:87
 msgid "Biz bilan bog'lanish"
 msgstr "Контакты"
 
-#: template/base.html:112
+#: template/base.html:108
 msgid "Foydali linklar"
 msgstr "Полезные ссылки"
 
-#: template/base.html:117 template/team.html:13 template/team.html:15
+#: template/base.html:113 template/team.html:13 template/team.html:15
 msgid "Rahbarlar"
 msgstr "Руководство"
 
-#: template/base.html:118
+#: template/base.html:114
 msgid "Privacy policy"
 msgstr "Политика конфиденциальности"
 
-#: template/base.html:123 template/contact.html:15
+#: template/base.html:119 template/contact.html:15
 msgid "Biz bilan aloqa"
 msgstr "Контакты"
 
-#: template/base.html:125
+#: template/base.html:121
 msgid "Toshkent shaxar"
 msgstr "город Ташкент"
 
-#: template/base.html:126
+#: template/base.html:122
 msgid "Bektemir tumani"
 msgstr "Бектемирский район"
 
-#: template/base.html:127
+#: template/base.html:123
 msgid "Oltintopgan 15"
 msgstr "Олтинтопган 15"
 
-#: template/base.html:128 template/contact.html:44
+#: template/base.html:124 template/contact.html:44
 msgid "Telefon"
 msgstr "Телефон"
 
-#: template/base.html:135
+#: template/base.html:131
 msgid "Tashkilot haqida"
 msgstr "Об организации"
 
-#: template/base.html:137
+#: template/base.html:133
 msgid ""
-"\n"
-"                            Markaz respublikada dorivor o‘simliklarni ilmiy "
-"asosda yetishtirish va qayta ishlash,\n"
-"                            ulardan oqilona foydalanishning yagona "
+"Markaz respublikada dorivor o‘simliklarni ilmiy asosda yetishtirish va qayta "
+"ishlash,\n"
+"                        ulardan oqilona foydalanishning yagona "
 "strategiyasini shakllantirish va amalga oshirish,\n"
-"                            ishlab chiqarishga ilmiy asoslangan "
-"texnologiyalarni joriy etish, dorivor o‘simliklar\n"
-"                            plantatsiyalarini barpo etish, chet el florasiga "
+"                        ishlab chiqarishga ilmiy asoslangan texnologiyalarni "
+"joriy etish, dorivor o‘simliklar\n"
+"                        plantatsiyalarini barpo etish, chet el florasiga "
 "mansub bo‘lgan dorivor o‘simliklar\n"
-"                            turlarini iqlimlashtirish, nav namunalarini "
-"sinovdan o‘tkazish, tanlash, dorivor o‘simliklar\n"
-"                            xomashyosi va ulardan olinadigan mahsulotlarni "
+"                        turlarini iqlimlashtirish, nav namunalarini sinovdan "
+"o‘tkazish, tanlash, dorivor o‘simliklar\n"
+"                        xomashyosi va ulardan olinadigan mahsulotlarni "
 "sertifikatlash va standartlashtirishni amalga\n"
-"                            oshirish hamda rivojlantirish bo‘yicha "
-"respublika ilmiy-ishlab chiqarish davlat muassasasi\n"
-"                            hisoblanadi.\n"
-"                        "
+"                        oshirish hamda rivojlantirish bo‘yicha respublika "
+"ilmiy-ishlab chiqarish davlat muassasasi\n"
+"                        hisoblanadi."
 msgstr ""
 "Центр отвечает за научное выращивание и переработку лекарственных растений в "
 "республике, разработку и реализацию единой стратегии их рационального "
@@ -147,7 +132,7 @@ msgstr ""
 "стандартизации лекарственного растительного сырья и продуктов, полученных из "
 "него."
 
-#: template/base.html:157
+#: template/base.html:149
 msgid "Barcha huquqlar himoyalangan"
 msgstr "Все права защищены"
 
@@ -201,11 +186,11 @@ msgstr "Эл. адрес"
 
 #: template/index.html:19
 msgid "Dorivor "
-msgstr "Лекарственный"
+msgstr "Выращивание и переработка"
 
 #: template/index.html:19
 msgid "o'simliklarni yetishtirish va qayta ishlash"
-msgstr " выращивание и обработка растений"
+msgstr " лекарственных растений"
 
 #: template/index.html:21
 msgid ""
@@ -2043,6 +2028,18 @@ msgstr ""
 #: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:249
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "O'rmon xo'jaligi davlat qo'mitasi huzuridagi dorivor o'simiklarni "
+#~| "yetishtirish va qayta ishlash IICHM!"
+#~ msgid ""
+#~ "O'rmon xo'jaligi davlat qo'mitasi huzuridagi dorivor o'simiklarni "
+#~ "yetishtirish va\n"
+#~ "                        qayta ishlash IICHM!"
+#~ msgstr ""
+#~ "НПЦ по выращиванию и переработке лекарственных растений при "
+#~ "Государственном комитете по лесному хозяйству Республики Узбекистан"
 
 #~ msgid "About Eterna"
 #~ msgstr "Эбоут Этерна"

@@ -8,13 +8,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>{% trans "O'rmon xo'jaligi davlat qo'mitasi negizidagi shifobax dorivor o'simiklarni yetishtirish markazi" %}!</title>
+    <title>{% trans "O'rmon xo'jaligi davlat qo'mitasi negizidagi shifobax dorivor o'simiklarni yetishtirish markazi"%}!</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{% static 'assets/img/logo/icon1.png' %}" rel="icon">
-    <link href="{% static 'assets/img/logo/icon1.png' %}" rel="apple-touch-icon">
+    <link href="{% static 'assets/img/icon.png' %}" rel="apple-touch-icon">
+    <link href="{% static 'assets/img/icon.png' %}" rel="icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -45,11 +45,11 @@
         <div class="social-links d-none d-md-flex align-items-center">
             <ul class="navbar-nav ml-auto">
                 {% for data in LANGUAGES %}
-                    {% if data.0 != LANGUAGE_CODE %}
-                        <li>
-                            <a href="/{{ data.0 }}/" class="nav-link">{{ data.1 }}</a>
-                        </li>
-                    {% endif %}
+                {% if data.0 != LANGUAGE_CODE %}
+                <li>
+                    <a href="/{{ data.0 }}/" class="nav-link">{{ data.1 }}</a>
+                </li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>
@@ -59,40 +59,36 @@
 <!-- ======= Header ======= -->
 <header id="header" class="d-flex align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
+        <!-- <div class="logo col-2">
 
-        <div class="logo col-3">
-            <h6>
-                <a href="{% url 'pages:home' %}">
-                    {% blocktrans %}O'rmon xo'jaligi davlat qo'mitasi huzuridagi dorivor o'simiklarni yetishtirish va
-                        qayta ishlash IICHM!{% endblocktrans %}
+            <img src="{% static 'assets/img/icon.png' %}" alt="" >
+        </div>
+    </div> -->
+    <div class="col-12">
+        <nav id="navbar" class="navbar">
+            <ul>
+                <a href="#" class="navbar-brand">
+                    <img src="{% static 'assets/img/icon.png' %}" alt="" width="70px" style="display: block;">
                 </a>
-            </h6>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html"><img src="{% static 'assets/img/logo/icon1.png' %}" alt="" class="img-fluid"></a> -->
-        </div>
-        <div class="col-9">
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a {% if forloop.first %} class="{% active_link 'pages:home' %}" {% endif %}
-                                                  href="{% url 'pages:home' %}">{% trans "Asosiy" %}</a></li>
-                    <li><a href="{% url 'pages:about' %}"
-                           class="{% active_link 'pages:about' %}">{% trans "Yangiliklar" %}</a></li>
-                    <li><a href="{% url 'pages:service' %}"
-                           class="{% active_link 'pages:service' %}">{% trans "Markaz faoliyati" %}</a></li>
-                    <li><a href="{% url 'pages:team' %}"
-                           class="{% active_link 'pages:team' %}">{% trans "Hodimlar" %}</a>
-                    </li>
-                    <li><a href="{% url 'pages:blog' %}"
-                           class="{% active_link 'pages:blog' %}">{% trans "Dorivor o'simliklar" %}</a></li>
-                    <li><a href="{% url 'pages:elektron-type' %}"
-                           class="{% active_link 'pages:elektron-type' %}">{% trans "Elektron ma'lumotlar bazasi" %}</a>
-                    </li>
-                    <li><a href="{% url 'pages:contact' %}"
-                           class="{% active_link 'pages:contact' %}">{% trans "Biz bilan bog'lanish" %}</a></li>
-                </ul>
-                {#            <i class="bi bi-list mobile-nav-toggle"></i>#}
-            </nav><!-- .navbar -->
-        </div>
+                <li><a {% if forloop.first %} class="{% active_link 'pages:home' %}" {% endif %} href="{% url 'pages:home' %}">{% trans "Asosiy" %}</a></li>
+                <li><a href="{% url 'pages:about' %}"
+                       class="{% active_link 'pages:about' %}">{% trans "Yangiliklar" %}</a></li>
+                <li><a href="{% url 'pages:service' %}"
+                       class="{% active_link 'pages:service' %}">{% trans "Markaz faoliyati" %}</a></li>
+                <li><a href="{% url 'pages:team' %}"
+                       class="{% active_link 'pages:team' %}">{% trans "Hodimlar" %}</a>
+                </li>
+                <li><a href="{% url 'pages:blog' %}"
+                       class="{% active_link 'pages:blog' %}">{% trans "Dorivor o'simliklar" %}</a></li>
+                <li><a href="{% url 'pages:elektron-type' %}"
+                       class="{% active_link 'pages:elektron-type' %}">{% trans "Elektron ma'lumotlar bazasi" %}</a>
+                </li>
+                <li><a href="{% url 'pages:contact' %}"
+                       class="{% active_link 'pages:contact' %}">{% trans "Biz bilan bog'lanish" %}</a></li>
+            </ul>
+            {# <i class="bi bi-list mobile-nav-toggle"></i>#}
+        </nav><!-- .navbar -->
+    </div>
 
 
     </div>
@@ -134,20 +130,16 @@
                 <div class="col-lg-4 col-md-6 footer-info">
                     <h3>{% trans "Tashkilot haqida" %}</h3>
                     <p>
-                        {% blocktrans %}
-                            Markaz respublikada dorivor o‘simliklarni ilmiy asosda yetishtirish va qayta ishlash,
-                            ulardan oqilona foydalanishning yagona strategiyasini shakllantirish va amalga oshirish,
-                            ishlab chiqarishga ilmiy asoslangan texnologiyalarni joriy etish, dorivor o‘simliklar
-                            plantatsiyalarini barpo etish, chet el florasiga mansub bo‘lgan dorivor o‘simliklar
-                            turlarini iqlimlashtirish, nav namunalarini sinovdan o‘tkazish, tanlash, dorivor o‘simliklar
-                            xomashyosi va ulardan olinadigan mahsulotlarni sertifikatlash va standartlashtirishni amalga
-                            oshirish hamda rivojlantirish bo‘yicha respublika ilmiy-ishlab chiqarish davlat muassasasi
-                            hisoblanadi.
-                        {% endblocktrans %}
+                        {% blocktrans %}Markaz respublikada dorivor o‘simliklarni ilmiy asosda yetishtirish va qayta ishlash,
+                        ulardan oqilona foydalanishning yagona strategiyasini shakllantirish va amalga oshirish,
+                        ishlab chiqarishga ilmiy asoslangan texnologiyalarni joriy etish, dorivor o‘simliklar
+                        plantatsiyalarini barpo etish, chet el florasiga mansub bo‘lgan dorivor o‘simliklar
+                        turlarini iqlimlashtirish, nav namunalarini sinovdan o‘tkazish, tanlash, dorivor o‘simliklar
+                        xomashyosi va ulardan olinadigan mahsulotlarni sertifikatlash va standartlashtirishni amalga
+                        oshirish hamda rivojlantirish bo‘yicha respublika ilmiy-ishlab chiqarish davlat muassasasi
+                        hisoblanadi.{% endblocktrans %}
                     </p>
-
                 </div>
-
             </div>
         </div>
     </div>
@@ -161,7 +153,7 @@
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/ -->
-            {#            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>#}
+            {# Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>#}
         </div>
     </div>
 </footer><!-- End Footer -->
