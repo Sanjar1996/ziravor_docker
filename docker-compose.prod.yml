@@ -20,7 +20,7 @@
       build:
         context: .
         dockerfile: Dockerfile.prod
-      command: gunicorn config.wsgi:application --bind 0.0.0.0:2020
+      command: gunicorn config.wsgi:application --bind 0.0.0.0:9797
       volumes:
         - static_volume_ziravor:/home/app/web/static
         - media_volume_ziravor:/home/app/web/media
@@ -29,7 +29,7 @@
       depends_on: 
         - ziravordb_prod
       ports:
-        - "2020:2020"
+        - "9797:9797"
       env_file: 
         - ./.env.prod
 
@@ -41,7 +41,7 @@
         - static_volume_ziravor:/home/app/web/static
         - media_volume_ziravor:/home/app/web/media
       ports:
-        - "4040:4040"
+        - "9696:9696"
       networks:
         - ziravor-network
       depends_on:
