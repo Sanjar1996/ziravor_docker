@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-a)^%vofb4uyr@(fpj00u+i40)wnyih44%tcd$w(idyg%p*@xl*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'www.dorivormarkaz.uz', 'dorivormarkaz.uz']
+ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = ['https://*.dorivormarkaz.uz']
 # Application definition
