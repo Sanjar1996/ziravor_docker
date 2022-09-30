@@ -67,9 +67,9 @@
     <div class="col-12">
         <nav id="navbar" class="navbar">
             <ul>
-                <a href="{% url 'pages:home' %}" class="navbar-brand">
-                    <img src="{% static 'assets/img/icon.png' %}" alt="" width="70px" style="display: block;">
-                </a>
+<!--                <a href="{% url 'pages:home' %}" class="navbar-brand">-->
+<!--                    <img src="{% static 'assets/img/logo/icon.png' %}" alt=""  style="display: block; width: 70px;">-->
+<!--                </a>-->
                 <li><a {% if forloop.first %} class="{% active_link 'pages:home' %}" {% endif %} href="{% url 'pages:home' %}">{% trans "Asosiy" %}</a></li>
                 <li><a href="{% url 'pages:about' %}"
                        class="{% active_link 'pages:about' %}">{% trans "Yangiliklar" %}</a></li>
@@ -93,9 +93,8 @@
 
     </div>
 </header><!-- End -->
-
 {% block content %}
-
+ 
 {% endblock content %}
 <!-- ======= Footer ======= -->
 <footer id="footer">

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 10:57+0500\n"
+"POT-Creation-Date: 2022-09-30 11:37+0500\n"
 "PO-Revision-Date: 2022-09-23 12:05+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,7 +20,7 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Poedit 3.1.1\n"
 
-#: template/about.html:13 template/base.html:73 template/base.html:110
+#: template/about.html:13 template/base.html:73 template/base.html:109
 #: template/blog.html:12 template/contact.html:12 template/portfolio.html:12
 #: template/pricing-detail.html:9 template/pricing.html:12
 #: template/services.html:11 template/team.html:12
@@ -28,7 +28,7 @@ msgid "Asosiy"
 msgstr "Основные"
 
 #: template/about.html:14 template/about.html:16 template/base.html:75
-#: template/base.html:111 template/index.html:86
+#: template/base.html:110 template/index.html:86
 msgid "Yangiliklar"
 msgstr "Новости"
 
@@ -45,7 +45,7 @@ msgstr ""
 "растений при Государственном комитете по лесному хозяйству Республики "
 "Узбекистан"
 
-#: template/base.html:77 template/base.html:112 template/services.html:14
+#: template/base.html:77 template/base.html:111 template/services.html:14
 msgid "Markaz faoliyati"
 msgstr "Деятельность центра"
 
@@ -68,43 +68,43 @@ msgstr "Электронная база данных"
 msgid "Biz bilan bog'lanish"
 msgstr "Контакты"
 
-#: template/base.html:108
+#: template/base.html:107
 msgid "Foydali linklar"
 msgstr "Полезные ссылки"
 
-#: template/base.html:113 template/team.html:13 template/team.html:15
+#: template/base.html:112 template/team.html:13 template/team.html:15
 msgid "Rahbarlar"
 msgstr "Руководство"
 
-#: template/base.html:114
+#: template/base.html:113
 msgid "Privacy policy"
 msgstr "Политика конфиденциальности"
 
-#: template/base.html:119 template/contact.html:15
+#: template/base.html:118 template/contact.html:15
 msgid "Biz bilan aloqa"
 msgstr "Контакты"
 
-#: template/base.html:121
+#: template/base.html:120
 msgid "Toshkent shaxar"
 msgstr "город Ташкент"
 
-#: template/base.html:122
+#: template/base.html:121
 msgid "Bektemir tumani"
 msgstr "Бектемирский район"
 
-#: template/base.html:123
+#: template/base.html:122
 msgid "Oltintopgan 15"
 msgstr "Олтинтопган 15"
 
-#: template/base.html:124 template/contact.html:44
+#: template/base.html:123 template/contact.html:44
 msgid "Telefon"
 msgstr "Телефон"
 
-#: template/base.html:131
+#: template/base.html:130
 msgid "Tashkilot haqida"
 msgstr "Об организации"
 
-#: template/base.html:133
+#: template/base.html:132
 msgid ""
 "Markaz respublikada dorivor o‘simliklarni ilmiy asosda yetishtirish va qayta "
 "ishlash,\n"
@@ -132,7 +132,7 @@ msgstr ""
 "стандартизации лекарственного растительного сырья и продуктов, полученных из "
 "него."
 
-#: template/base.html:149
+#: template/base.html:148
 msgid "Barcha huquqlar himoyalangan"
 msgstr "Все права защищены"
 
@@ -186,7 +186,7 @@ msgstr "Эл. адрес"
 
 #: template/index.html:19
 msgid "Dorivor "
-msgstr "Выращивание и переработка"
+msgstr "Выращивание и переработкe"
 
 #: template/index.html:19
 msgid "o'simliklarni yetishtirish va qayta ishlash"
