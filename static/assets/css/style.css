@@ -156,6 +156,11 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
+@media(max-width: 1250px){
+  .navbar a, .navbar a:focus {
+    padding: 10px 0 10px 20px;
+  }
+}
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
@@ -175,6 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #ec7f6d;
 }
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -243,14 +249,24 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle.bi-x {
   color: #fff;
 }
-
+.navbar-mini{
+  display: none;
+}
+.close-open-icon {
+  display: none;
+}
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
-
+  .close-open-icon {
+    display: block;
+  }
   .navbar ul {
     display: none;
+  }
+  .navbar-mini{
+    display: block;
   }
 }
 .navbar-mobile {
@@ -1162,12 +1178,13 @@ section {
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 30px 20px;
+  padding: 20px 20px;
   background: #fff;
 }
 .team .member img {
-  max-width: 60%;
-  border-radius: 50%;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
   margin: 0 0 30px 0;
 }
 .team .member h4 {
@@ -1888,4 +1905,80 @@ section {
     margin: 25px;
     padding: auto;
     position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-mini {
+  padding: 10px 30px;
+  background-color: #fff;
+  position: fixed;
+  left: -400px;
+  z-index: 100;
+  transition: 1s;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 0px 10px 30px rgb(209 213 223 / 50%);
+  top: 45px;
+}
+.navbar-mini-open {
+  left: 0px !important;
+}
+.navbar-mini ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  list-style: none;
+  align-items: center;
+}
+.navbar-mini li {
+  position: relative;
+}
+.navbar-mini a, .navbar-mini a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #545454;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.navbar-mini a i, .navbar-mini a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+.navbar-mini a:hover, .navbar-mini .active, .navbar-mini .active:focus, .navbar-mini li:hover > a {
+  color: #e96b56;
+}
+.navbar-mini .getstarted, .navbar-mini .getstarted:focus {
+  background: #e96b56;
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+}
+.navbar-mini .getstarted:hover, .navbar-mini .getstarted:focus:hover {
+  color: #fff;
+  background: #ec7f6d;
+}
+
+.close-open-icon {
+  position: absolute;
+  right: 10px;
+}
+.close-open-icon img {
+  width: 40px;
+  filter: grayscale(100%);
 }
