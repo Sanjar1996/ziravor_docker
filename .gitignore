@@ -170,8 +170,7 @@ coverage.xml
 *.cover
 .hypothesis/
 
-# Translations
-*.mo
+
 
 # Django stuff:
 
@@ -223,5 +222,3 @@ venv.bak/
 .mypy_cache/
 
 # End of https://www.gitignore.io/api/linux,macos,python,django,pycharm
-__pycache__/
-.vscode/
