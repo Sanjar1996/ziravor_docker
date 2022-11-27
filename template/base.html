@@ -138,11 +138,11 @@
                 <div class="col-lg-4 col-md-6 footer-links">
                     <h4>{% trans "Foydali linklar" %}</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">{% trans "Asosiy" %}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">{% trans "Yangiliklar" %}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">{% trans "Markaz faoliyati" %}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">{% trans "Rahbarlar" %}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">{% trans "Privacy policy" %}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{% url 'pages:home' %}">{% trans "Asosiy" %}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{% url 'pages:about' %}">{% trans "Yangiliklar" %}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{% url 'pages:service' %}">{% trans "Markaz faoliyati" %}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="% url 'pages:team' %}">{% trans "Hodimlar" %}</a></li>
+                        {% comment %} <li><i class="bx bx-chevron-right"></i> <a href="#">{% trans "Privacy policy" %}</a></li> {% endcomment %}
                     </ul>
                 </div>
 
